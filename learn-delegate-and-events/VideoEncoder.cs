@@ -22,7 +22,7 @@ namespace learn_delegate_and_events
             OnVideoEncoded();  // 3 
         }
 
-        public virtual void OnVideoEncoded()
+        public virtual void OnVideoEncoded()  // event should be virtual by convention
         {
             if (VideoEncoded != null)  // there is a subscriber
                 VideoEncoded(this, EventArgs.Empty);
