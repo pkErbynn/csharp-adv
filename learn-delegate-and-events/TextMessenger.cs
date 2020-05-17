@@ -4,14 +4,14 @@ namespace learn_delegate_and_events
 {
     class TextMessenger
     {
-        public void SendText()
+        public void SendText(VideoEventArgs args)
         {
-            Console.WriteLine("TextMessage: Sending message....");
+            Console.WriteLine("TextMessage: Sending message.... " + args.Video.Title);
         }
 
-        public void SendMessageAfterVideoEncoding(object s, EventArgs e)
+        public void SendMessageAfterVideoEncoding(object s, VideoEventArgs args)
         {
-            SendText();
+            SendText(args);
         } 
     }
 }

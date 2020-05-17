@@ -17,4 +17,4 @@
             videoEncoder.Encode(video);  // contains the event
         }
     }
-}
+ }
