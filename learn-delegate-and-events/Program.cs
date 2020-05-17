@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace learn_delegate_and_events
+﻿namespace learn_delegate_and_events
 {
     class Program
     {
@@ -13,23 +11,10 @@ namespace learn_delegate_and_events
 
             // subscription is done before publishing
 
-            videoEncoder.VideoEncoded += mailService.OnVideoEncodingDone;  // subscription process
+            videoEncoder.VideoEncoded += mailService.OnVideoEncodingDone;  // subscription process ... just pointer to method...not a call
             videoEncoder.VideoEncoded += textMessenger.SendMessageAfterVideoEncoding;  // another sub process
 
             videoEncoder.Encode(video);  // contains the event
         }
-    }
-
-    class TextMessenger
-    {
-        public void SendText()
-        {
-            Console.WriteLine("TextMessage: Sending message....");
-        }
-
-        public void SendMessageAfterVideoEncoding(object s, EventArgs e)
-        {
-            SendText();
-        } 
     }
 }
