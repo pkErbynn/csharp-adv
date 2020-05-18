@@ -15,13 +15,23 @@ namespace learn_class_extension
             //        cheapBooks.Add(book);
             //}
 
-            // above can be replaced by linq
-            var cheapBooks = books.Where(b => b.Price < 10).OrderBy(b => b.Price).Select(b => b.Title); // Select => map
-             
-            foreach(var book in cheapBooks)
+            // using LINQ Extention Methods
+            var cheapBooks = books
+                                                .Where(b => b.Price < 10)  // filter
+                                                .OrderBy(b => b.Price)  // sort
+                                                .Select(b => b.Title); //  map
+
+            // using LINQ Query Operators
+            var cheapBooks2 = 
+                              from b in books
+                              where b.Price < 10
+                              orderby b.Title
+                              select b;
+
+            foreach (var book in cheapBooks2)
             {
-                //Console.WriteLine(book.Title + " " + book.Price);
-                Console.WriteLine(book);  // only book titles
+                Console.WriteLine(book.Title + " " + book.Price);
+                //Console.WriteLine(book);  // only book titles
             }
         }
     }
