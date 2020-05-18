@@ -1,0 +1,11 @@
+C:\Users\Mr. Erbynn\source\repos\learn\learn-class-extension\bin\Debug\netcoreapp3.1\learn-linq.exe
+C:\Users\Mr. Erbynn\source\repos\learn\learn-class-extension\bin\Debug\netcoreapp3.1\learn-linq.deps.json
+C:\Users\Mr. Erbynn\source\repos\learn\learn-class-extension\bin\Debug\netcoreapp3.1\learn-linq.runtimeconfig.json
+C:\Users\Mr. Erbynn\source\repos\learn\learn-class-extension\bin\Debug\netcoreapp3.1\learn-linq.runtimeconfig.dev.json
+C:\Users\Mr. Erbynn\source\repos\learn\learn-class-extension\bin\Debug\netcoreapp3.1\learn-linq.dll
+C:\Users\Mr. Erbynn\source\repos\learn\learn-class-extension\bin\Debug\netcoreapp3.1\learn-linq.pdb
+C:\Users\Mr. Erbynn\source\repos\learn\learn-class-extension\obj\Debug\netcoreapp3.1\learn-linq.csprojAssemblyReference.cache
+C:\Users\Mr. Erbynn\source\repos\learn\learn-class-extension\obj\Debug\netcoreapp3.1\learn-linq.AssemblyInfoInputs.cache
+C:\Users\Mr. Erbynn\source\repos\learn\learn-class-extension\obj\Debug\netcoreapp3.1\learn-linq.AssemblyInfo.cs
+C:\Users\Mr. Erbynn\source\repos\learn\learn-class-extension\obj\Debug\netcoreapp3.1\learn-linq.dll
+C:\Users\Mr. Erbynn\source\repos\learn\learn-class-extension\obj\Debug\netcoreapp3.1\learn-linq.pdb

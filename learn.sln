@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "learn", "learn\learn.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn-delegate-and-events", "learn-delegate-and-events\learn-delegate-and-events.csproj", "{10410062-3C31-4FE7-A25E-F75F17DF56B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn-linq", "learn-class-extension\learn-linq.csproj", "{9B928273-CE74-40AE-A850-3A9C145D39B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{10410062-3C31-4FE7-A25E-F75F17DF56B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10410062-3C31-4FE7-A25E-F75F17DF56B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10410062-3C31-4FE7-A25E-F75F17DF56B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B928273-CE74-40AE-A850-3A9C145D39B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B928273-CE74-40AE-A850-3A9C145D39B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B928273-CE74-40AE-A850-3A9C145D39B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B928273-CE74-40AE-A850-3A9C145D39B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
