@@ -10,12 +10,12 @@ namespace learn_class_extension
                 new Book()
                 {
                     Title = "C# fundamentals",
-                    Price = 5
+                    Price = 8
                 },
                 new Book()
                 {
                     Title = "C# intermediate",
-                    Price = 8.4f
+                    Price = 5.4f
                 },
                 new Book()
                 {

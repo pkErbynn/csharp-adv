@@ -16,7 +16,7 @@ namespace learn_class_extension
             //}
 
             // above can be replaced by linq
-            var cheapBooks = books.Where(b => b.Price < 9);
+            var cheapBooks = books.Where(b => b.Price < 10).OrderBy(b => b.Price);
 
             foreach(var book in cheapBooks)
             {
