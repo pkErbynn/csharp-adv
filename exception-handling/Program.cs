@@ -24,21 +24,37 @@ namespace exception_handling
             //    Console.WriteLine("Oops!....something went wrong..." + ex.Message);
             //}
 
-            StreamReader streamReader = null;
+
+            // using finally
+            //StreamReader streamReader = null;
+            //try
+            //{
+            //    streamReader = new StreamReader(@"C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\file.zip");
+            //    var content = streamReader.ReadToEnd();
+            //    throw new Exception("Oops!!");
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("Sorry, expected error occured...");
+            //}
+            //finally     // always executed
+            //{
+            //    if (streamReader != null)
+            //        streamReader.Dispose();
+            //}
+
+
+            // better way of using finally disposing
             try
             {
-                streamReader = new StreamReader(@"C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\file.zip");
-                var content = streamReader.ReadToEnd();
-                throw new Exception("Oops!!");
+                using (var streamReader2 = new StreamReader(@"C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\file.zip"))
+                {
+                    var content = streamReader2.ReadToEnd();
+                }
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Sorry, expected error occured...");
-            }
-            finally     // always executed
-            {
-                if(streamReader != null)
-                    streamReader.Dispose();
             }
         }
     }
