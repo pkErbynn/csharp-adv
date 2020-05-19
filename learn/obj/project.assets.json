@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn\\learn.csproj",
-      "projectName": "learn",
-      "projectPath": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn\\learn.csproj",
+      "projectUniqueName": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn\\delegate.csproj",
+      "projectName": "delegate",
+      "projectPath": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn\\delegate.csproj",
       "packagesPath": "C:\\Users\\Mr. Erbynn\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn\\obj\\",
       "projectStyle": "PackageReference",

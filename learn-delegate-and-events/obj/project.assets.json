@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn-delegate-and-events\\learn-delegate-and-events.csproj",
-      "projectName": "learn-delegate-and-events",
-      "projectPath": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn-delegate-and-events\\learn-delegate-and-events.csproj",
+      "projectUniqueName": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn-delegate-and-events\\delegate-and-events.csproj",
+      "projectName": "delegate-and-events",
+      "projectPath": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn-delegate-and-events\\delegate-and-events.csproj",
       "packagesPath": "C:\\Users\\Mr. Erbynn\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn-delegate-and-events\\obj\\",
       "projectStyle": "PackageReference",

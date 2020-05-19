@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn-nullable-types-and-dynamics\\learn-nullable-types-and-dynamics.csproj",
-      "projectName": "learn-nullable-types-and-dynamics",
-      "projectPath": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn-nullable-types-and-dynamics\\learn-nullable-types-and-dynamics.csproj",
+      "projectUniqueName": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn-nullable-types-and-dynamics\\nullable-types-and-dynamics.csproj",
+      "projectName": "nullable-types-and-dynamics",
+      "projectPath": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn-nullable-types-and-dynamics\\nullable-types-and-dynamics.csproj",
       "packagesPath": "C:\\Users\\Mr. Erbynn\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn-nullable-types-and-dynamics\\obj\\",
       "projectStyle": "PackageReference",

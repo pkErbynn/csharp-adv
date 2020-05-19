@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn-class-extension\\linq.csproj",
-      "projectName": "linq",
-      "projectPath": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn-class-extension\\linq.csproj",
+      "projectUniqueName": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\exception-handling\\exception-handling.csproj",
+      "projectName": "exception-handling",
+      "projectPath": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\exception-handling\\exception-handling.csproj",
       "packagesPath": "C:\\Users\\Mr. Erbynn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\learn-class-extension\\obj\\",
+      "outputPath": "C:\\Users\\Mr. Erbynn\\source\\repos\\learn\\exception-handling\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mr. Erbynn\\AppData\\Roaming\\NuGet\\NuGet.Config",
