@@ -56,6 +56,9 @@ namespace exception_handling
             {
                 Console.WriteLine("Sorry, expected error occured..." + ex.Message);
             }
+
+            Console.WriteLine(">>>>>>>>>>");
         }
+
     }
 }
