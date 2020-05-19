@@ -24,9 +24,10 @@ namespace exception_handling
             //    Console.WriteLine("Oops!....something went wrong..." + ex.Message);
             //}
 
-            var streamReader = new StreamReader(@"C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\file.zip");
+            StreamReader streamReader = null;
             try
             {
+                streamReader = new StreamReader(@"C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\file.zip");
                 var content = streamReader.ReadToEnd();
                 throw new Exception("Oops!!");
             }
@@ -36,7 +37,8 @@ namespace exception_handling
             }
             finally
             {
-                streamReader.Dispose();
+                if(streamReader != null)
+                    streamReader.Dispose();
             }
           
         }
