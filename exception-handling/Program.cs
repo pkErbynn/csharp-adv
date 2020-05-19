@@ -35,12 +35,11 @@ namespace exception_handling
             {
                 Console.WriteLine("Sorry, expected error occured...");
             }
-            finally
+            finally     // always executed
             {
                 if(streamReader != null)
                     streamReader.Dispose();
             }
-          
         }
     }
 }
