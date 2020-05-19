@@ -54,7 +54,7 @@ namespace exception_handling
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Sorry, expected error occured...");
+                Console.WriteLine("Sorry, expected error occured..." + ex.Message);
             }
         }
     }
