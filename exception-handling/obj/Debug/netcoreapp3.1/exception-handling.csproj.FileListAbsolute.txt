@@ -1,0 +1,11 @@
+C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\bin\Debug\netcoreapp3.1\exception-handling.exe
+C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\bin\Debug\netcoreapp3.1\exception-handling.deps.json
+C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\bin\Debug\netcoreapp3.1\exception-handling.runtimeconfig.json
+C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\bin\Debug\netcoreapp3.1\exception-handling.runtimeconfig.dev.json
+C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\bin\Debug\netcoreapp3.1\exception-handling.dll
+C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\bin\Debug\netcoreapp3.1\exception-handling.pdb
+C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\obj\Debug\netcoreapp3.1\exception-handling.csprojAssemblyReference.cache
+C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\obj\Debug\netcoreapp3.1\exception-handling.AssemblyInfoInputs.cache
+C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\obj\Debug\netcoreapp3.1\exception-handling.AssemblyInfo.cs
+C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\obj\Debug\netcoreapp3.1\exception-handling.dll
+C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\obj\Debug\netcoreapp3.1\exception-handling.pdb

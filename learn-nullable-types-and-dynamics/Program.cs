@@ -25,6 +25,16 @@ namespace learn_nullable_types_and_dynamics
             date2 = date2 ?? DateTime.Now;
             Console.WriteLine("date2: " + date2);
 
+
+            // Dynamics 
+            dynamic name = "hello";
+            name = 10;
+
+            name.Testfxn();  // checked at run time
+
+            int i = 5;
+            dynamic d = i;
+
         }
     }
 }
