@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,6 +25,22 @@ namespace async_await_with_wpf
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        public void DownloadHtml(string url)
+        {
+            var webClient = new WebClient();
+            var html = webClient.DownloadString(url);
+
+            using(var streamWriter = new StreamWriter(@"C:\Users\Mr. Erbynn\source\repos\learn\result.html"))
+            {
+                streamWriter.Write(html);
+            }
         }
     }
 }
