@@ -13,8 +13,7 @@ namespace exception_handling
             }
             catch (Exception ex)
             {
-
-                throw new YouTubeException("Sorry....Could not fetch the videos from YouTube.", ex);
+                throw new YouTubeException("Sorry....Could not fetch the videos from YouTube.", ex);    // catches the low level exception
             }
             return new List<Video>();
         }

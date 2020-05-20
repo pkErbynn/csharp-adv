@@ -66,7 +66,7 @@ namespace exception_handling
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.Message);      // exception caught message avail here 
             }
 
         }
