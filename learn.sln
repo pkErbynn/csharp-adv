@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delegate-and-events", "lear
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linq", "learn-class-extension\linq.csproj", "{9B928273-CE74-40AE-A850-3A9C145D39B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nullable-types-and-dynamics", "learn-nullable-types-and-dynamics\nullable-types-and-dynamics.csproj", "{EB34950C-E24E-4F7A-B759-B25F71CA0C62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nullable-types-and-dynamics", "learn-nullable-types-and-dynamics\nullable-types-and-dynamics.csproj", "{EB34950C-E24E-4F7A-B759-B25F71CA0C62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exception-handling", "exception-handling\exception-handling.csproj", "{263D7207-D9A4-4FC6-BE68-A96757C394CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exception-handling", "exception-handling\exception-handling.csproj", "{263D7207-D9A4-4FC6-BE68-A96757C394CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async-await-with-wpf", "async-await-with-wpf\async-await-with-wpf.csproj", "{F6F9608F-91AD-4C1B-8946-92415A191AE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{263D7207-D9A4-4FC6-BE68-A96757C394CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{263D7207-D9A4-4FC6-BE68-A96757C394CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{263D7207-D9A4-4FC6-BE68-A96757C394CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F9608F-91AD-4C1B-8946-92415A191AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F9608F-91AD-4C1B-8946-92415A191AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F9608F-91AD-4C1B-8946-92415A191AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F9608F-91AD-4C1B-8946-92415A191AE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
