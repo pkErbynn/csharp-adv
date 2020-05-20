@@ -9,12 +9,12 @@ namespace exception_handling
         {
             try
             {
-
+                throw new Exception("Oops....some low level YouTube error. ");
             }
             catch (Exception ex)
             {
 
-                throw;
+                throw new YouTubeException("Sorry....Could not fetch the videos from YouTube.", ex);
             }
             return new List<Video>();
         }

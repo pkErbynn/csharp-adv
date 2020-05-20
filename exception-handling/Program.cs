@@ -45,16 +45,28 @@ namespace exception_handling
 
 
             // better way of using finally disposing
+            //try
+            //{
+            //    using (var streamReader2 = new StreamReader(@"C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\file.zip"))
+            //    {
+            //        var content = streamReader2.ReadToEnd();
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("Sorry, expected error occured..." + ex.Message);
+            //}
+
+
+            // custom exception
             try
             {
-                using (var streamReader2 = new StreamReader(@"C:\Users\Mr. Erbynn\source\repos\learn\exception-handling\file.zip"))
-                {
-                    var content = streamReader2.ReadToEnd();
-                }
+                var api = new YouTubeApi();
+                api.GetVideos("pk erbynn");     // trigers the exeption
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Sorry, expected error occured..." + ex.Message);
+                Console.WriteLine(ex.Message);
             }
 
         }
