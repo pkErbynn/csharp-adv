@@ -30,7 +30,9 @@ namespace async_await_with_wpf
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
             //DownloadHtmlAsync("https://turntabl.io/");
-            var html = await GetHtmlAsync("https://turntabl.io/");
+            var getHtmlTask = GetHtmlAsync("https://turntabl.io");
+            MessageBox.Show("some work can be done here before await...");
+            var html = await getHtmlTask;
             MessageBox.Show(html.Substring(0, 10));
         }
 
