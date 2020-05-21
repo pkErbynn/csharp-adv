@@ -29,18 +29,38 @@ namespace async_await_with_wpf
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            //DownloadHtmlAsync("https://turntabl.io/");
+            var html = GetHtml("https://turntabl.io/");
+            MessageBox.Show(html.Substring(0, 10));
         }
 
-        public void DownloadHtml(string url)
+        //public void DownloadHtml(string url)
+        //{
+        //    var webClient = new WebClient();
+        //    var html = webClient.DownloadString(url);
+
+        //    using(var streamWriter = new StreamWriter(@"C:\Users\Mr. Erbynn\source\repos\learn\result.html"))
+        //    {
+        //        streamWriter.Write(html);
+               
+        //    }
+        //}
+
+        public async Task DownloadHtmlAsync(string url)
         {
             var webClient = new WebClient();
-            var html = webClient.DownloadString(url);
+            var html = await webClient.DownloadDataTaskAsync(url);
 
-            using(var streamWriter = new StreamWriter(@"C:\Users\Mr. Erbynn\source\repos\learn\result.html"))
+            using (var streamWriter = new StreamWriter(@"C:\Users\Mr. Erbynn\source\repos\learn\result.html"))
             {
-                streamWriter.Write(html);
+                await streamWriter.WriteAsync(html.ToString());
             }
+        }
+
+        public string GetHtml(string url)
+        {
+            var webClient = new WebClient();
+                return webClient.DownloadString(url);
         }
     }
 }
