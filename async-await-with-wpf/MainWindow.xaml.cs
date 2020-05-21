@@ -27,10 +27,10 @@ namespace async_await_with_wpf
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
             //DownloadHtmlAsync("https://turntabl.io/");
-            var html = GetHtml("https://turntabl.io/");
+            var html = await GetHtmlAsync("https://turntabl.io/");
             MessageBox.Show(html.Substring(0, 10));
         }
 
@@ -57,10 +57,10 @@ namespace async_await_with_wpf
             }
         }
 
-        public string GetHtml(string url)
+        public async Task<string> GetHtmlAsync(string url)
         {
             var webClient = new WebClient();
-                return webClient.DownloadString(url);
+            return await webClient.DownloadStringTaskAsync(url);
         }
     }
 }
