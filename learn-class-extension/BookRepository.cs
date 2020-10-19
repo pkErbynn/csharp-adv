@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-namespace learn_class_extension
+namespace LING
 {
     class BookRepository
     {

@@ -1,4 +1,4 @@
-﻿namespace learn_class_extension
+﻿namespace LING
 {
     class Book
     {

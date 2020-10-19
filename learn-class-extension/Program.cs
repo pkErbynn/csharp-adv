@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-namespace learn_class_extension
+namespace LING
 {
     class Program
     {
